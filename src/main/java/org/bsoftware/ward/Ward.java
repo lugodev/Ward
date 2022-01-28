@@ -25,7 +25,7 @@ public class Ward extends SpringBootServletInitializer
     /**
      * Constant for determine initial application port
      */
-    public static final int INITIAL_PORT = 4000;
+    public static final int INITIAL_PORT = 5000;
 
     /**
      * Holder for determine first launch of application

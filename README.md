@@ -122,7 +122,7 @@ Ward works nice on all popular operating systems, because it uses [OSHI](https:/
 
     1. Create you own jar as described above
     2. Execute jar on Windows or Linux with administrative rights
-    3. Enter localhost:4000 and set up application
+    3. Enter localhost:5000 and set up application
 
 <br>
 
@@ -130,6 +130,6 @@ Ward works nice on all popular operating systems, because it uses [OSHI](https:/
 
     1. Clone the project
     2. docker build --tag ward
-    3. docker run --rm -it --name ward -p 4000:4000 -p <application port>:<application port> --privileged ward
-    4. Go to localhost:4000 in web browser, input the same application port
+    3. docker run -d --rm -it --name ward -p 5000:5000 --privileged ward
+    4. Go to localhost:5000 in web browser, input the same application port
     5. If you get error after being redirected to application port try hitting refresh
