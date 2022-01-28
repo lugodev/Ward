@@ -20,7 +20,7 @@ RUN apk update && \
 COPY --from=builder target/*.jar /ward.jar
 COPY --from=builder pom.xml /pom.xml
 
-EXPOSE 4000
+EXPOSE 5000
 
 # Run jar as sudo user on entry point
 ENTRYPOINT java -jar ward.jar
